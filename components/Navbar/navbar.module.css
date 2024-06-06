@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  color: #5d576b;
+  transition: box-shadow 0.3s;
+}
+
+.nav h3 {
+  cursor: pointer;
+}
+
+.nav h3:hover {
+  box-shadow: 0 0 15px 5px #ec9d98;
+  background-color: #ec9d98;
+  border-radius: 20px;
+}
+
+.nav h3:active {
+  box-shadow: 0 0 15px 5px #cc7f7b;
+  background-color: #cc7f7b;
+  border-radius: 20px;
+}
