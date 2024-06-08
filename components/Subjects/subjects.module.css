@@ -1,0 +1,27 @@
+.table {
+  width: 90vw;
+  margin: 5vh auto;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold {
+  background-color: #cec1ec;
+}
+
+.green {
+  background-color: #a8ffd2;
+}
+
+.yellow {
+  background-color: #feffa8;
+}

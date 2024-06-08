@@ -1,14 +1,14 @@
 .about {
-  width: 100vw;
-  gap: 5vw;
   display: grid;
   padding: auto;
   grid-template-columns: 3fr 1fr;
-  padding-top: 20vh;
 }
 
 .left {
-  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh 5vw;
+  justify-content: center;
 }
 
 .imageContainer {
@@ -16,8 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20vh;
-  margin-top: -20vh;
 }
 
 .me {

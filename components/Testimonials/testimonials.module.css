@@ -1,0 +1,14 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90vw;
+  margin: auto;
+  gap: 1vw;
+}
+
+.card {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}

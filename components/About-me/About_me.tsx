@@ -21,7 +21,6 @@ export default function AboutMe() {
           is currently pursuing a CLS (Clinical Laboratory Scientist)
           certification.
         </p>
-        <p></p>
       </div>
       <div className={styles.imageContainer}>
         <Image

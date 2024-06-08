@@ -12,13 +12,15 @@ export default function Header() {
         <button className={`${styles.title} ${styles.button}`}>
           Schedule a Session!
         </button>
-        <Image
-          alt="study table"
-          src="/study-table.jpg"
-          width="100"
-          height="100"
-          layout="responsive"
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            alt="study table"
+            src="/study-table.jpg"
+            width="100"
+            height="100"
+            layout="responsive"
+          />
+        </div>
       </div>
     </>
   );
