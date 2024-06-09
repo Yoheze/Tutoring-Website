@@ -1,7 +1,16 @@
+"use client";
+
 import styles from "./header.module.css";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
+  const router = useRouter();
+
+  function click() {
+    router.push("/availability");
+  }
+
   return (
     <>
       <div className={styles.container}>
@@ -9,8 +18,8 @@ export default function Header() {
         <h3 className={`${styles.title} ${styles.subtitle}`}>
           A tutor passionate about the sciences!
         </h3>
-        <button className={`${styles.title} ${styles.button}`}>
-          Schedule a Session!
+        <button className={`${styles.title} ${styles.button}`} onClick={click}>
+          Check Availability!
         </button>
         <div className={styles.imageContainer}>
           <Image

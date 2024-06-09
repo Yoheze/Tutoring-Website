@@ -1,0 +1,10 @@
+.price {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.price ul {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+}

@@ -1,0 +1,14 @@
+.faq h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.faq h3 {
+  margin-left: 1vw;
+  margin-top: 5vh;
+}
+
+.faq li {
+  margin-bottom: -12px;
+  font-weight: bold;
+}

@@ -5,6 +5,7 @@ import Credentials from "../../components/Credentials/credentials";
 import Subjects from "../../components/Subjects/subjects";
 import TutoringStyle from "../../components/Testimonials/testimonials";
 import Price from "../../components/Price/price";
+import FAQ from "../../components/FAQ/FAQ";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Subjects />
       <TutoringStyle />
       <Price />
+      <FAQ />
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function Testimonials() {
       rating: 5,
     },
     {
-      name: "Michael",
+      name: "Student from Study Hut",
       statement: "Thanks for letting me be your young padawan!",
       source: "Study Hut Tutoring",
       rating: NaN,
