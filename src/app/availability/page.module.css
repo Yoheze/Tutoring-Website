@@ -4,6 +4,16 @@
   padding: 3px;
 }
 
+.tableArrows {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  height: 5vh;
+  width: 5vw;
+}
+
 .yellow {
   background-color: #feffa8;
 }

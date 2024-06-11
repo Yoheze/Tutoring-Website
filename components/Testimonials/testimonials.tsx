@@ -10,8 +10,8 @@ export default function Testimonials() {
       array.push(
         <Image
           src={Star}
-          alt={`Star ${num} of five`}
-          key={`Star ${num} of five`}
+          alt={`Star ${i} of five`}
+          key={`Star ${i} of five`}
           style={{ color: "yellow" }}
         />
       );
