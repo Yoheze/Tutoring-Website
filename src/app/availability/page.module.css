@@ -7,6 +7,8 @@
 .tableArrows {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: 3vh auto;
 }
 
 .arrow {
@@ -14,6 +16,35 @@
   width: 5vw;
 }
 
+.gray {
+  background-color: lightgray;
+}
+
+.legend {
+  border: 1px solid black;
+  width: 80vw;
+  margin: auto;
+}
+
+.legend h3 {
+  text-align: center;
+}
+
+.red {
+  background-color: #f78181;
+}
+
 .yellow {
   background-color: #feffa8;
+}
+
+.green {
+  background-color: #a8ffd2;
+}
+
+.legendColor {
+  border: 1px solid black;
+  padding-left: 3vw;
+  width: 80%;
+  margin: 1vh auto;
 }
